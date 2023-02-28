@@ -10,7 +10,7 @@ weather_params = {
     "lang": "kr"
 
 }
-# tst
+# tst222
 response = requests.get(OWM_Endpoint, params=weather_params)
 response.raise_for_status()
 print(response.json())
